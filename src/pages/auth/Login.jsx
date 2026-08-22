@@ -49,9 +49,7 @@ export default function Login() {
 
         {/* Logo */}
         <div className="relative z-10 flex items-center gap-3">
-          <div className="w-9 h-9 rounded-xl bg-indigo-600 flex items-center justify-center shadow-glow-indigo">
-            <Layers className="w-5 h-5 text-white" />
-          </div>
+          <img src="/logo.png" alt="DayFlow Logo" className="w-12 h-12 object-contain" />
           <div>
             <span className="text-white font-bold text-xl tracking-tight">Dayflow</span>
             <span className="block text-zinc-600 text-[10px] tracking-widest uppercase">HRMS Platform</span>
@@ -87,25 +85,7 @@ export default function Login() {
           </div>
         </div>
 
-        {/* Bottom — Demo creds */}
-        <div className="relative z-10">
-          <div className="border border-zinc-800 rounded-xl p-4 bg-white/[0.02] space-y-2">
-            <div className="flex items-center gap-1.5 mb-2">
-              <Shield className="w-3.5 h-3.5 text-zinc-500" />
-              <span className="text-zinc-500 text-xs font-medium">Demo Credentials</span>
-            </div>
-            <div className="space-y-1.5 text-xs">
-              <div className="flex justify-between">
-                <span className="text-zinc-600">Admin</span>
-                <span className="text-zinc-400 font-mono">admin@dayflow.com / Admin@123</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-zinc-600">Employee</span>
-                <span className="text-zinc-400 font-mono">aarav@dayflow.com / Password@123</span>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
 
       {/* RIGHT — Login card */}
@@ -113,9 +93,7 @@ export default function Login() {
         <div className="w-full max-w-[380px] space-y-7">
           {/* Mobile logo */}
           <div className="lg:hidden flex items-center gap-2.5 mb-2">
-            <div className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center">
-              <Layers className="w-4 h-4 text-white" />
-            </div>
+            <img src="/logo.png" alt="DayFlow Logo" className="w-8 h-8 object-contain" />
             <span className="text-zinc-900 font-bold text-lg">Dayflow</span>
           </div>
 

@@ -46,9 +46,7 @@ export function Sidebar({ collapsed, onToggle }) {
     >
       {/* Logo */}
       <div className="flex items-center gap-3 px-4 h-14 border-b border-zinc-800/60 flex-shrink-0">
-        <div className="w-7 h-7 rounded-lg bg-indigo-600 flex items-center justify-center flex-shrink-0">
-          <Layers className="w-4 h-4 text-white" />
-        </div>
+        <img src="/logo.png" alt="DayFlow Logo" className="w-8 h-8 object-contain flex-shrink-0" />
         {!collapsed && (
           <div className="min-w-0">
             <span className="text-white font-bold text-base tracking-tight">Dayflow</span>

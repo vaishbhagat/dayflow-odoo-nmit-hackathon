@@ -12,9 +12,7 @@ export default function VerifyEmail() {
     <div className="min-h-screen flex items-center justify-center bg-zinc-50 px-4">
       <div className="w-full max-w-sm text-center space-y-6">
         <div className="flex items-center justify-center gap-2 mb-2">
-          <div className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center">
-            <Layers className="w-4 h-4 text-white" />
-          </div>
+          <img src="/logo.png" alt="DayFlow Logo" className="w-8 h-8 object-contain" />
           <span className="text-zinc-900 font-bold text-lg">Dayflow</span>
         </div>
 
